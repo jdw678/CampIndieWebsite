@@ -1,0 +1,14 @@
+import React from 'react';
+import logo from './logo.svg';
+import '../css/main.css';
+import Home from './Home';
+
+function Main() {
+  return (
+    <main>
+      <Home />
+    </main>
+  );
+}
+
+export default Main;

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './css/index.css';
+import Main from './components/Main';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -9,7 +9,15 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <header>
+      <nav>
+        <div className="nav-item">Home</div>
+      </nav>
+    </header>
+    <Main />
+    <footer>
+
+    </footer>
   </React.StrictMode>
 );
 
