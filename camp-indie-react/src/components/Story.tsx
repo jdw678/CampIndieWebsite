@@ -1,7 +1,10 @@
 import React from 'react'
+import BookShelf from './BookShelf'
 
 export default function Story() {
   return (
-    <div>Story</div>
+    <div className='story'>
+      <BookShelf />
+    </div>
   )
 }

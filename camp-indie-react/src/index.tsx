@@ -9,15 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <header>
-      <nav>
-        <div className="nav-item">Home</div>
-      </nav>
-    </header>
     <Main />
-    <footer>
-
-    </footer>
   </React.StrictMode>
 );
 
