@@ -1,0 +1,72 @@
+
+.book {
+    width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: rgb(179, 101, 0);
+    font-size: 16px;
+    text-align: center;
+}
+
+.book:hover {
+    color: rgb(219, 124, 0);
+}
+
+
+.book ul {
+    padding: 0;
+    margin: 0;
+}
+
+.book h2 {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.book p {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+.highlight {
+    width: 100%;
+    padding-top: 1px;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, rgb(0,0,0), rgb(179, 101, 0),  rgb(0,0,0));
+    box-sizing: border-box;
+}
+
+.highlight-secondary {
+    background-image: linear-gradient(to right, rgb(0,0,0), rgb(145, 145, 145),  rgb(0,0,0));
+    width: 50%;
+}
+
+
+.chapters-list {
+    display: none;
+    color: rgb(206, 206, 206);
+}
+
+.book:hover > .highlight, .book:hover .book-title {
+    background-image: linear-gradient(to right, rgb(0,0,0), rgb(219, 124, 0),  rgb(0,0,0));
+    color: rgb(206, 206, 206);
+}
+
+.book:hover .chapters-list {
+    display: block;
+}
+
+.book:hover .chapter:hover p {
+
+    background-image: linear-gradient(to right, rgb(0,0,0), rgb(145, 145, 145),  rgb(0,0,0));
+    text-shadow: 1px 1px 5px black;
+}
